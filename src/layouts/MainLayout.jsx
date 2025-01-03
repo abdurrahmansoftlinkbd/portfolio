@@ -1,10 +1,16 @@
 import { Outlet } from "react-router-dom";
+import Navbar from "../components/Navbar";
 
 const MainLayout = () => {
   return (
-    <div>
-      <Outlet></Outlet>
-    </div>
+    <>
+      <nav className="bg-red-500">
+        <Navbar></Navbar>
+      </nav>
+      <main>
+        <Outlet></Outlet>
+      </main>
+    </>
   );
 };
 
