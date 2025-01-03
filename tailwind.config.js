@@ -10,6 +10,10 @@ export default {
         light: "#A3FFC4",
         dark: "#1E8B4F",
       },
+      fontFamily: {
+        inter: ["Inter", "serif"],
+        lato: ["Lato", "serif"],
+      },
     },
   },
   plugins: [daisyui],
