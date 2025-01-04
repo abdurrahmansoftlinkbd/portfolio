@@ -1,3 +1,4 @@
+import Education from "../components/Education";
 import Skills from "../components/Skills";
 
 const About = () => {
@@ -33,8 +34,11 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section>
+      <section className="my-20">
         <Skills></Skills>
+      </section>
+      <section>
+        <Education></Education>
       </section>
     </>
   );
