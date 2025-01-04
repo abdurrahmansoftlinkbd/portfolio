@@ -1,8 +1,12 @@
+import Banner from "../components/Banner";
+
 const Home = () => {
   return (
-    <div>
-      <h2>Home</h2>
-    </div>
+    <>
+      <header className="font-inter">
+        <Banner></Banner>
+      </header>
+    </>
   );
 };
 
