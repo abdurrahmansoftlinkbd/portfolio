@@ -1,5 +1,4 @@
-import React from "react";
-import { Code2, Layers, Database, Wrench } from "lucide-react";
+import { Layers, Database, Wrench } from "lucide-react";
 
 const Skills = () => {
   const skills = {
@@ -12,9 +11,9 @@ const Skills = () => {
       { name: "DaisyUI", progress: 85 },
     ],
     backend: [
-      { name: "Node.js", progress: 75 },
-      { name: "Express.js", progress: 75 },
-      { name: "MongoDB", progress: 70 },
+      { name: "Node.js", progress: 25 },
+      { name: "Express.js", progress: 35 },
+      { name: "MongoDB", progress: 40 },
       { name: "Firebase", progress: 80 },
     ],
     tools: [
@@ -39,7 +38,7 @@ const Skills = () => {
               </div>
               <div className="w-full bg-base-300 rounded-full h-2">
                 <div
-                  className="bg-primary h-2 rounded-full transition-all duration-500 ease-out"
+                  className="bg-default h-2 rounded-full transition-all duration-500 ease-out"
                   style={{ width: `${skill.progress}%` }}
                 />
               </div>
@@ -57,7 +56,7 @@ const Skills = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Skills</h2>
           <div className="divider max-w-xs mx-auto"></div>
           <p className="text-base-content/80 max-w-2xl mx-auto">
-            Here are the technologies and tools I work with. I'm constantly
+            Here are the technologies and tools I work with. I’m constantly
             learning and improving my skills to stay up-to-date with the latest
             web development trends.
           </p>
