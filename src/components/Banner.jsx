@@ -3,7 +3,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Banner = () => {
   return (
-    <div className="hero pt-10">
+    <div className="hero pt-16">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
           src="https://i.ibb.co.com/zS5MDwj/freepik-export-20240930075401dna8.jpg"

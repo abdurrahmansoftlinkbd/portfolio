@@ -4,7 +4,10 @@ const Navbar = () => {
   const links = (
     <>
       <li>
-        <a>Home</a>
+        <Link to="/">Home</Link>
+      </li>
+      <li>
+        <Link to="/about">About</Link>
       </li>
     </>
   );
